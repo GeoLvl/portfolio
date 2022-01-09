@@ -1,0 +1,93 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+  /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  /* cursor: none; */
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+}
+
+nav {
+  font-size: 20px;
+  padding: 1em;
+  display: flex;
+  max-width: 93%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 100%;
+  margin: auto;
+}
+
+.navlink {
+  margin-left: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #16161d;
+}
+
+.navlink:hover {
+  /* padding: 25px 0; */
+  font-weight: 800;
+  text-decoration: none;
+  color: #16161d;
+}
+
+hr {
+  padding: 0;
+  margin: 0 auto;
+  width: 93%;
+  color: #16161d;
+}
+
+.info {
+  max-width: 93%;
+  margin: auto;
+}
+
+.info h4 {
+  padding: 0.5em;
+  margin: 0;
+  /* max-width: 33%; */
+  font-size: 10rem;
+  color: #16161d;
+  /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: red;
+  box-sizing: border-box;
+  transition: 0.1s;
+  /* transform: translate(-50%, 50%); */
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: height 300ms ease, width 300ms ease;
+}
+
+.pointer {
+  position: absolute;
+  background: rgb(8, 126, 44);
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+}
